@@ -9,6 +9,6 @@ int subtract(int a, int b);
 
 int divide(int a, int b);
 
-double guess(double a);
+double sqrt(double a);
 
 #endif // MATHLIB_H
