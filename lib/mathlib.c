@@ -28,3 +28,18 @@ double sqrt(double a) {
     }
   }
 }
+
+int pww(int base, int exponent) {
+  
+  if(base == 0 || exponent == 0) {
+    return -1;
+  } else { 
+    int result = 1, i = 0;
+
+    while(i < exponent) {
+      result *= base;
+      i++;
+    }
+    return result;  
+  }
+}

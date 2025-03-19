@@ -11,4 +11,6 @@ int divide(int a, int b);
 
 double sqrt(double a);
 
+int pww(int base, int exponent);
+
 #endif // MATHLIB_H
