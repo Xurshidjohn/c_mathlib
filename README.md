@@ -17,3 +17,46 @@ libmathlib - bu **C dasturlash tili uchun oddiy, lekin foydali matematik kutubxo
 Kutubxonani kompilyatsiya qilish:
 ```bash
 git clone https://github.com/Xurshidjohn/c_mathlib.git
+
+```
+
+## Ishlatish 💻
+
+```bash
+#include <stdio.h>
+#include "lib/mathlib.h"
+int main()
+{
+  printf("%d", pow(6, 6));
+  printf("%d", subtract(6, 6));
+  printf("%d", divide(6, 6));
+  printf("%d", multiple(6, 6));
+  printf("%d", add(6, 6));
+  printf("%d", is_prime(6));
+  printf("%lf", sqrt(6.0));
+}
+
+```
+
+## Eslatma ‼
+
+mathlib.h kutubxonasini math.h bilan birga include qilmang!
+
+Misol!
+
+```bash
+#include <stdio.h>
+#include "lib/mathlib.h"
+
+// bu tog'ri!
+	
+```
+
+```bash
+#include <stdio.h>
+#include <math.h>
+#include "lib/mathlib.h"
+
+// bu noto'g'ri
+
+```
