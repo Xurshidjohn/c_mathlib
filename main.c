@@ -2,5 +2,5 @@
 #include "lib/mathlib.h"
 int main()
 {
-  printf("%d", pww(4, 4));
+  printf("%d", pow(6, 6));
 }

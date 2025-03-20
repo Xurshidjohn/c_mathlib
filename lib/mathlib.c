@@ -29,7 +29,7 @@ double sqrt(double a) {
   }
 }
 
-int pww(int base, int exponent) {
+int pow(int base, int exponent) {
   
   if(base == 0 || exponent == 0) {
     return -1;
