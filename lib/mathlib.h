@@ -13,4 +13,7 @@ double sqrt(double a);
 
 int pow(int base, int exponent);
 
+int is_prime(int num);
+
+
 #endif // MATHLIB_H
